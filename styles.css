@@ -26,7 +26,7 @@ body {
     align-items: center;
     background-color: #f5eded;
     padding: 10px 40px;
-    position: fixed;
+/*     position: fixed; */
     top: 0;
     width: 100%;
     /* Make the navbar span the full width */
