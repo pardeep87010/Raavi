@@ -28,22 +28,22 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // navbar 
 
-// document.addEventListener('DOMContentLoaded', () => {
-//     const navbar = document.querySelector('.navbar');
-//     let isScrolling;
+document.addEventListener('DOMContentLoaded', () => {
+    const navbar = document.querySelector('.navbar');
+    let isScrolling;
 
-//     window.addEventListener('scroll', () => {
-//         navbar.style.top = '0'; // Show the navbar when scrolling starts
+    window.addEventListener('scroll', () => {
+        navbar.style.top = '0'; // Show the navbar when scrolling starts
 
-//         // Clear our timeout throughout the scroll
-//         window.clearTimeout(isScrolling);
+        // Clear our timeout throughout the scroll
+        window.clearTimeout(isScrolling);
 
-//         // Set a timeout to run after scrolling ends
-//         isScrolling = setTimeout(() => {
-//             navbar.style.top = '-60px'; // Hide the navbar after scrolling stops
-//         }, 5000); // 2 seconds after scrolling stops
-//     }, false);
-// });
+        // Set a timeout to run after scrolling ends
+        isScrolling = setTimeout(() => {
+            navbar.style.top = '-60px'; // Hide the navbar after scrolling stops
+        }, 5000); // 2 seconds after scrolling stops
+    }, false);
+});
 
 
 // end navbar
