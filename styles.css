@@ -16,7 +16,7 @@ body {
     padding: 10px 40px;
     position: relative;
     flex-wrap: wrap;
-    /* position: fixed; */
+    position: fixed;
     z-index: 1;
 
     /* new */
@@ -145,7 +145,7 @@ body {
     position: relative;
     max-width: 100%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-bottom: 35px;
     overflow: hidden;
 }
